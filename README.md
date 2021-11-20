@@ -29,4 +29,5 @@ discord-timestamps officially supports Python 3.6+.
 
 ## API Reference
 
-See [Read the Docs](https://averager.readthedocs.io) for Averager's documentation.
+See the [wiki](https://github.com/bsoyka/discord-timestamps/wiki) for
+discord-timestamps's documentation.
