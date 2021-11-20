@@ -1,0 +1,31 @@
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
+
+[project]
+authors = [{name = "Ben Soyka", email = "bensoyka@icloud.com"}]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+dependencies = ["arrow~=1.0.0"]
+dynamic = ["version", "description"]
+license = {file = "LICENSE"}
+name = "discord-timestamps"
+readme = "README.md"
+requires-python = "~=3.6"
+
+[tool.flit.module]
+name = "discord_timestamps"
+
+[project.urls]
+Changelog = "https://github.com/bsoyka/discord-timestamps/releases"
+Source = "https://github.com/bsoyka/discord-timestamps"
