@@ -29,4 +29,5 @@ name = "discord_timestamps"
 
 [project.urls]
 Changelog = "https://github.com/bsoyka/discord-timestamps/releases"
+Documentation = "https://github.com/bsoyka/discord-timestamps/wiki"
 Source = "https://github.com/bsoyka/discord-timestamps"
