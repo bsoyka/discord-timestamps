@@ -6,7 +6,7 @@ from arrow import Arrow
 
 from .formats import TimestampType
 
-__version__ = '1.0.1'
+__version__ = "1.0.1"
 
 
 def format_timestamp(
@@ -33,8 +33,8 @@ def format_timestamp(
 
     elif isinstance(timestamp, Arrow):
         # The timestamp is an Arrow object, convert it to an int in UTC
-        timestamp = timestamp.to('UTC')
+        timestamp = timestamp.to("UTC")
         int_timestamp = timestamp.int_timestamp
 
     # Combine the timestamp and the format
-    return f'<t:{int_timestamp}{timestamp_type.value}>'
+    return f"<t:{int_timestamp}{timestamp_type.value}>"
